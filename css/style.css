@@ -37,6 +37,35 @@ p.links {
 	font-size: 1.6em;
 }
 
+p.info {
+	font-weight: bolder;
+	font-size: 1.5em;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
 a {
 	color: black;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+li {
+	font-family: "Open Sans", sans-serif;
+	line-height: 1em;
+	font-weight: bolder;
+	font-size: 1.5em;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+li:hover {
+	letter-spacing: 4px;
 }

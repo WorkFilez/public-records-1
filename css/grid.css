@@ -29,12 +29,35 @@ div#branding {
 	max-height: 160px;
 }
 
+div#navigation {
+	display: none;
+}
+
+div#information {
+	display: none;
+}
+
 @media screen and (min-width: 784px) {
 	div#branding {
 		display: flex;
 		grid-column: 2 / -2;
 		grid-row: 1 / 2;
 		height: 100%;
+	}
+
+	div#navigation {
+		display: flex;
+		grid-column: 2 / 3;
+		grid-row: 1 / 2;
+	}
+
+	div#information {
+		display: flex;
+		grid-column: -3 / -2;
+		grid-row: 1 / 2;
+		align-items: flex-end;
+		text-align: right;
+		padding: 8px;
 	}
 }
 
