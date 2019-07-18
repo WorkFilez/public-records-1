@@ -52,6 +52,6 @@ a {
 }
 
 #navigation a {
-	padding: 8px;
-	font-size: 2.4em;
+	padding-left: 8px;
+	font-size: 2em;
 }

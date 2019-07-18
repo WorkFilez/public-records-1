@@ -47,8 +47,11 @@ div#information {
 
 	div#navigation {
 		display: flex;
-		grid-column: 2 / 3;
+		align-items: flex-start;
+		text-align: right;
+		grid-column: -3 / -2;
 		grid-row: 1 / 2;
+		padding: 8px;
 	}
 
 	div#information {
