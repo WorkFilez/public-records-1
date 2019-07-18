@@ -17,3 +17,26 @@ img {
 img#logo {
 	min-width: 340px;
 }
+
+p {
+	font-family: "Open Sans", sans-serif;
+	line-height: 1em;
+	margin: 8px 0;
+}
+
+p.artist {
+
+}
+
+p.album {
+	font-weight: bold;
+}
+
+p.links {
+	padding-top: 8px;
+	font-size: 1.6em;
+}
+
+a {
+	color: black;
+}
