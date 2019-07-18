@@ -1,0 +1,15 @@
+/* Import local stylesheets */
+@import url("grid.css");
+/* Import fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
+
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
