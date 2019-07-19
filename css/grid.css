@@ -1,7 +1,7 @@
 div#grid {
 	display: grid;
 	grid-template-columns: 1fr 6fr 1fr;
-	grid-gap: 64px;
+	grid-gap: 16px 64px;
 	background-color: white;
 	width: 100vw;
 	padding-bottom: 64px;
@@ -29,11 +29,15 @@ div#branding {
 	max-height: 160px;
 }
 
-div#navigation {
+div#socials {
 	display: none;
 }
 
 div#information {
+	display: none;
+}
+
+div#navigation {
 	display: none;
 }
 
@@ -45,7 +49,7 @@ div#information {
 		height: 100%;
 	}
 
-	div#navigation {
+	div#socials {
 		display: flex;
 		align-items: flex-start;
 		text-align: right;
@@ -62,12 +66,19 @@ div#information {
 		text-align: right;
 		padding: 8px;
 	}
+
+	div.navigation {
+		display: flex;
+		grid-column: 2 / -2;
+		justify-content: center;
+	}
 }
 
 div.record {
 	display: flex;
 	width: 100%;
 	min-height: 240px;
+	padding-top: 32px;
 }
 
 div.a {

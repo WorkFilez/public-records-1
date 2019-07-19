@@ -14,6 +14,10 @@ img {
 	max-width: 100%;
 }
 
+.record img {
+	box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.3);
+}
+
 img#logo {
 	min-width: 340px;
 }
@@ -51,7 +55,34 @@ a {
 	text-decoration: none;
 }
 
-#navigation a {
+#socials a {
 	padding-left: 8px;
 	font-size: 2em;
+}
+
+.navigation ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.navigation li {
+	display: inline-block;
+	list-style: none;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: white;
+	background-color: #D00013;
+	padding: 4px 6px;
+	border-radius: 10px;
+}
+
+.navigation li:hover {
+	letter-spacing: 2px;
 }
